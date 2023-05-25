@@ -10,7 +10,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common BananaDroid stuff
 $(call inherit-product, vendor/banana/config/common.mk)
-BANANA_MAINTAINER := FPSensor
+BANANA_MAINTAINER := Aghisna
 TARGET_ENABLE_BLUR := true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_QUICK_TAP := true
