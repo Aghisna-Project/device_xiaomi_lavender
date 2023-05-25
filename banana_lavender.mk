@@ -15,6 +15,7 @@ TARGET_ENABLE_BLUR := true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
+WITH_GAPPS := false
 
 # Sony Dolby
 $(call inherit-product, vendor/dolby/config.mk)
